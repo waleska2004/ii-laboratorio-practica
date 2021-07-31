@@ -56,7 +56,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color:#f8f9fa;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -64,7 +64,7 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
-  background-color: currentColor;
+  background-color: #20c997;
   border: 0;
   opacity: 0.25;
 }
@@ -209,11 +209,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #20c997;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #20c997;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2440,8 +2440,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
 }
 .form-check-input:checked {
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #20c997;
+  border-color: #20c997;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -2450,8 +2450,8 @@ textarea.form-control-lg {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
 }
 .form-check-input[type=checkbox]:indeterminate {
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #20c997;
+  border-color:#20c997;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 .form-check-input:disabled {
@@ -7353,7 +7353,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #bd5d38 !important;
+  color: #9e2d38 !important;
 }
 
 .text-secondary {
@@ -7409,7 +7409,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #e6848d !important;
 }
 
 .bg-secondary {
